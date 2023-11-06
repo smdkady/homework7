@@ -13,6 +13,7 @@ class vacationServiceTest {
         int expected = 3;
         Assertions.assertEquals(expected, actual);
     }
+
     @Test
     public void testFreelance2() {
         vacationService service = new vacationService();
